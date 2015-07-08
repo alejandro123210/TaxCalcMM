@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,8 +15,102 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RBG-HZ-HsO">
+                                <rect key="frame" x="156" y="212" width="289" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="289" id="XW8-lJ-qlU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="BlT-Y5-0Q4">
+                                <rect key="frame" x="156" y="292" width="289" height="29"/>
+                                <segments>
+                                    <segment title="CA"/>
+                                    <segment title="CHI"/>
+                                    <segment title="NY"/>
+                                </segments>
+                                <color key="tintColor" red="0.2132239621" green="0.84426294189999995" blue="0.44663790079999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gh-bx-FeP">
+                                <rect key="frame" x="245" y="429" width="110" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="H39-dM-rx8"/>
+                                    <constraint firstAttribute="width" constant="110" id="QFl-wd-2mH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                <state key="normal" title="Overall Price">
+                                    <color key="titleColor" red="0.2132239621" green="0.84426294189999995" blue="0.44663790079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcOverallPrice:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZZa-4W-ZZA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyO-eE-Aa6">
+                                <rect key="frame" x="263" y="478" width="74" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="hXh-a7-Spm"/>
+                                    <constraint firstAttribute="height" constant="30" id="rV2-b9-wdh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                <state key="normal" title="Tip Price">
+                                    <color key="titleColor" red="0.2132239621" green="0.84426294189999995" blue="0.44663790079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tipCalc:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T5v-ZH-qio"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUy-vF-iSa">
+                                <rect key="frame" x="244" y="366" width="112" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Nhv-Nn-56F"/>
+                                    <constraint firstAttribute="width" constant="112" id="be4-ym-po5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                <color key="tintColor" red="0.2132239621" green="0.84426294189999995" blue="0.44663790079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Calculate Tax">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onCalculateButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jKf-et-Cug"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSm-7t-q4b">
+                                <rect key="frame" x="228" y="89" width="145" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ibM-8E-vRP"/>
+                                    <constraint firstAttribute="width" constant="145" id="t7l-Rx-Cdx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96042497813825012" green="1" blue="0.9184939543426075" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="oyO-eE-Aa6" firstAttribute="top" secondItem="1gh-bx-FeP" secondAttribute="bottom" constant="19" id="6YF-ra-gql"/>
+                            <constraint firstItem="BlT-Y5-0Q4" firstAttribute="trailing" secondItem="RBG-HZ-HsO" secondAttribute="trailing" id="6jD-8p-XOf"/>
+                            <constraint firstItem="BlT-Y5-0Q4" firstAttribute="top" secondItem="RBG-HZ-HsO" secondAttribute="bottom" constant="50" id="6yt-tt-pk5"/>
+                            <constraint firstItem="ZSm-7t-q4b" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="9QO-MB-4Vt"/>
+                            <constraint firstItem="1gh-bx-FeP" firstAttribute="centerX" secondItem="oyO-eE-Aa6" secondAttribute="centerX" id="Bcl-b3-5wI"/>
+                            <constraint firstItem="1gh-bx-FeP" firstAttribute="top" secondItem="sUy-vF-iSa" secondAttribute="bottom" constant="33" id="Cu2-0t-DeA"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="oyO-eE-Aa6" secondAttribute="bottom" constant="92" id="YeU-4O-afx"/>
+                            <constraint firstItem="ZSm-7t-q4b" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="69" id="ckQ-OQ-Vhh"/>
+                            <constraint firstItem="sUy-vF-iSa" firstAttribute="top" secondItem="BlT-Y5-0Q4" secondAttribute="bottom" constant="46" id="hu1-MA-5k5"/>
+                            <constraint firstItem="ZSm-7t-q4b" firstAttribute="centerX" secondItem="RBG-HZ-HsO" secondAttribute="centerX" id="q2m-OR-1cG"/>
+                            <constraint firstItem="BlT-Y5-0Q4" firstAttribute="centerX" secondItem="sUy-vF-iSa" secondAttribute="centerX" id="rek-y9-pdm"/>
+                            <constraint firstItem="sUy-vF-iSa" firstAttribute="centerX" secondItem="1gh-bx-FeP" secondAttribute="centerX" id="wJn-1g-Gk4"/>
+                            <constraint firstItem="RBG-HZ-HsO" firstAttribute="leading" secondItem="BlT-Y5-0Q4" secondAttribute="leading" id="wMv-hU-7II"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="priceTextField" destination="RBG-HZ-HsO" id="vfU-1s-fYY"/>
+                        <outlet property="resultLabel" destination="ZSm-7t-q4b" id="Is7-Kr-Z9W"/>
+                        <outlet property="segmentedControl" destination="BlT-Y5-0Q4" id="8kh-6Q-xeW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

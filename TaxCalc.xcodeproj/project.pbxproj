@@ -12,7 +12,6 @@
 		BDE20E151B4CD78100BBFD24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE20E141B4CD78100BBFD24 /* ViewController.m */; };
 		BDE20E181B4CD78100BBFD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE20E161B4CD78100BBFD24 /* Main.storyboard */; };
 		BDE20E1A1B4CD78100BBFD24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE20E191B4CD78100BBFD24 /* Images.xcassets */; };
-		BDE20E1D1B4CD78100BBFD24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE20E1B1B4CD78100BBFD24 /* LaunchScreen.xib */; };
 		BDE20E291B4CD78100BBFD24 /* TaxCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE20E281B4CD78100BBFD24 /* TaxCalcTests.m */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		BDE20E141B4CD78100BBFD24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BDE20E171B4CD78100BBFD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDE20E191B4CD78100BBFD24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BDE20E1C1B4CD78100BBFD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BDE20E221B4CD78100BBFD24 /* TaxCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE20E271B4CD78100BBFD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE20E281B4CD78100BBFD24 /* TaxCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxCalcTests.m; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				BDE20E141B4CD78100BBFD24 /* ViewController.m */,
 				BDE20E161B4CD78100BBFD24 /* Main.storyboard */,
 				BDE20E191B4CD78100BBFD24 /* Images.xcassets */,
-				BDE20E1B1B4CD78100BBFD24 /* LaunchScreen.xib */,
 				BDE20E0C1B4CD78100BBFD24 /* Supporting Files */,
 			);
 			path = TaxCalc;
@@ -200,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE20E181B4CD78100BBFD24 /* Main.storyboard in Resources */,
-				BDE20E1D1B4CD78100BBFD24 /* LaunchScreen.xib in Resources */,
 				BDE20E1A1B4CD78100BBFD24 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +246,6 @@
 				BDE20E171B4CD78100BBFD24 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BDE20E1B1B4CD78100BBFD24 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDE20E1C1B4CD78100BBFD24 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +404,7 @@
 				BDE20E2E1B4CD78100BBFD24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDE20E2F1B4CD78100BBFD24 /* Build configuration list for PBXNativeTarget "TaxCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +413,7 @@
 				BDE20E311B4CD78100BBFD24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
