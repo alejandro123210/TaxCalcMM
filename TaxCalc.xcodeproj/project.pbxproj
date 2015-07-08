@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDE20E0F1B4CD78100BBFD24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE20E0E1B4CD78100BBFD24 /* main.m */; };
+		BDE20E121B4CD78100BBFD24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE20E111B4CD78100BBFD24 /* AppDelegate.m */; };
+		BDE20E151B4CD78100BBFD24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE20E141B4CD78100BBFD24 /* ViewController.m */; };
+		BDE20E181B4CD78100BBFD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE20E161B4CD78100BBFD24 /* Main.storyboard */; };
+		BDE20E1A1B4CD78100BBFD24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE20E191B4CD78100BBFD24 /* Images.xcassets */; };
+		BDE20E1D1B4CD78100BBFD24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE20E1B1B4CD78100BBFD24 /* LaunchScreen.xib */; };
+		BDE20E291B4CD78100BBFD24 /* TaxCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE20E281B4CD78100BBFD24 /* TaxCalcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDE20E231B4CD78100BBFD24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE20E011B4CD78100BBFD24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE20E081B4CD78100BBFD24;
+			remoteInfo = TaxCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDE20E091B4CD78100BBFD24 /* TaxCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE20E0D1B4CD78100BBFD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE20E0E1B4CD78100BBFD24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDE20E101B4CD78100BBFD24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDE20E111B4CD78100BBFD24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDE20E131B4CD78100BBFD24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDE20E141B4CD78100BBFD24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDE20E171B4CD78100BBFD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE20E191B4CD78100BBFD24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDE20E1C1B4CD78100BBFD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BDE20E221B4CD78100BBFD24 /* TaxCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE20E271B4CD78100BBFD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE20E281B4CD78100BBFD24 /* TaxCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxCalcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDE20E061B4CD78100BBFD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE20E1F1B4CD78100BBFD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDE20E001B4CD78100BBFD24 = {
+			isa = PBXGroup;
+			children = (
+				BDE20E0B1B4CD78100BBFD24 /* TaxCalc */,
+				BDE20E251B4CD78100BBFD24 /* TaxCalcTests */,
+				BDE20E0A1B4CD78100BBFD24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE20E0A1B4CD78100BBFD24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE20E091B4CD78100BBFD24 /* TaxCalc.app */,
+				BDE20E221B4CD78100BBFD24 /* TaxCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE20E0B1B4CD78100BBFD24 /* TaxCalc */ = {
+			isa = PBXGroup;
+			children = (
+				BDE20E101B4CD78100BBFD24 /* AppDelegate.h */,
+				BDE20E111B4CD78100BBFD24 /* AppDelegate.m */,
+				BDE20E131B4CD78100BBFD24 /* ViewController.h */,
+				BDE20E141B4CD78100BBFD24 /* ViewController.m */,
+				BDE20E161B4CD78100BBFD24 /* Main.storyboard */,
+				BDE20E191B4CD78100BBFD24 /* Images.xcassets */,
+				BDE20E1B1B4CD78100BBFD24 /* LaunchScreen.xib */,
+				BDE20E0C1B4CD78100BBFD24 /* Supporting Files */,
+			);
+			path = TaxCalc;
+			sourceTree = "<group>";
+		};
+		BDE20E0C1B4CD78100BBFD24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDE20E0D1B4CD78100BBFD24 /* Info.plist */,
+				BDE20E0E1B4CD78100BBFD24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDE20E251B4CD78100BBFD24 /* TaxCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE20E281B4CD78100BBFD24 /* TaxCalcTests.m */,
+				BDE20E261B4CD78100BBFD24 /* Supporting Files */,
+			);
+			path = TaxCalcTests;
+			sourceTree = "<group>";
+		};
+		BDE20E261B4CD78100BBFD24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDE20E271B4CD78100BBFD24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE20E081B4CD78100BBFD24 /* TaxCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE20E2C1B4CD78100BBFD24 /* Build configuration list for PBXNativeTarget "TaxCalc" */;
+			buildPhases = (
+				BDE20E051B4CD78100BBFD24 /* Sources */,
+				BDE20E061B4CD78100BBFD24 /* Frameworks */,
+				BDE20E071B4CD78100BBFD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxCalc;
+			productName = TaxCalc;
+			productReference = BDE20E091B4CD78100BBFD24 /* TaxCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDE20E211B4CD78100BBFD24 /* TaxCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE20E2F1B4CD78100BBFD24 /* Build configuration list for PBXNativeTarget "TaxCalcTests" */;
+			buildPhases = (
+				BDE20E1E1B4CD78100BBFD24 /* Sources */,
+				BDE20E1F1B4CD78100BBFD24 /* Frameworks */,
+				BDE20E201B4CD78100BBFD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE20E241B4CD78100BBFD24 /* PBXTargetDependency */,
+			);
+			name = TaxCalcTests;
+			productName = TaxCalcTests;
+			productReference = BDE20E221B4CD78100BBFD24 /* TaxCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE20E011B4CD78100BBFD24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Alejandro Gonzalez";
+				TargetAttributes = {
+					BDE20E081B4CD78100BBFD24 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BDE20E211B4CD78100BBFD24 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BDE20E081B4CD78100BBFD24;
+					};
+				};
+			};
+			buildConfigurationList = BDE20E041B4CD78100BBFD24 /* Build configuration list for PBXProject "TaxCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE20E001B4CD78100BBFD24;
+			productRefGroup = BDE20E0A1B4CD78100BBFD24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE20E081B4CD78100BBFD24 /* TaxCalc */,
+				BDE20E211B4CD78100BBFD24 /* TaxCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE20E071B4CD78100BBFD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE20E181B4CD78100BBFD24 /* Main.storyboard in Resources */,
+				BDE20E1D1B4CD78100BBFD24 /* LaunchScreen.xib in Resources */,
+				BDE20E1A1B4CD78100BBFD24 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE20E201B4CD78100BBFD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE20E051B4CD78100BBFD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE20E151B4CD78100BBFD24 /* ViewController.m in Sources */,
+				BDE20E121B4CD78100BBFD24 /* AppDelegate.m in Sources */,
+				BDE20E0F1B4CD78100BBFD24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE20E1E1B4CD78100BBFD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE20E291B4CD78100BBFD24 /* TaxCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDE20E241B4CD78100BBFD24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE20E081B4CD78100BBFD24 /* TaxCalc */;
+			targetProxy = BDE20E231B4CD78100BBFD24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDE20E161B4CD78100BBFD24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE20E171B4CD78100BBFD24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE20E1B1B4CD78100BBFD24 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE20E1C1B4CD78100BBFD24 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDE20E2A1B4CD78100BBFD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDE20E2B1B4CD78100BBFD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE20E2D1B4CD78100BBFD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaxCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDE20E2E1B4CD78100BBFD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaxCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDE20E301B4CD78100BBFD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaxCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxCalc.app/TaxCalc";
+			};
+			name = Debug;
+		};
+		BDE20E311B4CD78100BBFD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaxCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxCalc.app/TaxCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDE20E041B4CD78100BBFD24 /* Build configuration list for PBXProject "TaxCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE20E2A1B4CD78100BBFD24 /* Debug */,
+				BDE20E2B1B4CD78100BBFD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE20E2C1B4CD78100BBFD24 /* Build configuration list for PBXNativeTarget "TaxCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE20E2D1B4CD78100BBFD24 /* Debug */,
+				BDE20E2E1B4CD78100BBFD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDE20E2F1B4CD78100BBFD24 /* Build configuration list for PBXNativeTarget "TaxCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE20E301B4CD78100BBFD24 /* Debug */,
+				BDE20E311B4CD78100BBFD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE20E011B4CD78100BBFD24 /* Project object */;
+}
